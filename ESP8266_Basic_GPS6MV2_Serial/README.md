@@ -14,7 +14,6 @@
 
 Más información sobre la instalación y caracteristicas del módulo en:
 
-<a href="https://github.com/sparkfun/SparkFun_u-blox_NEO-M8U" target="_blank">Infotronikblog: Módulo GPS 6MV2 Serial ESP8266 NodeMCU</a>
-<!--
-<img src="https://github.com/Peyutron/Arduino_examples/blob/main/arduino_basic_crossing_level_ldr/UNO_LDR_crossing_road.png" height="340" />
--->
+<a href="https://www.infotronikblog.com" target="_blank">Infotronikblog: Módulo GPS 6MV2 Serial ESP8266 NodeMCU</a>
+
+<img src="https://github.com/Peyutron/Arduino_examples/blob/main/ESP8266_Basic_GPS6MV2_Serial/images/capturaSerial_6MV2_02.png" height="340" />
