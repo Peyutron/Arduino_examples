@@ -26,7 +26,7 @@ void setup()
   Serial.println("Iniciando GPS-6MV2...");
 	ss.begin(GPSBaud);
 	}
-
+// Inicia el programa
 void loop() 
 	{
 	Serial.println(neo6mv2data());
@@ -83,38 +83,12 @@ String neo6mv2data() {
   {
     sprintf(dateBuffer, "%d/%d/%d", gps.date.day(), gps.date.month(), gps.date.year());
     gpsdate = String(dateBuffer);
-    /*
-      Serial.print(F("DATE       Fix Age="));
-      Serial.print(gps.date.age());
-      Serial.print(F("ms Raw="));
-      Serial.print(gps.date.value());
-      Serial.print(F(" Year="));
-      Serial.print(gps.date.year());
-      Serial.print(F(" Month="));
-      Serial.print(gps.date.month());
-      Serial.print(F(" Day="));
-      Serial.println(gps.date.day());
-    */
   }
   
   if (gps.time.isUpdated())
   {
     sprintf(timeBuffer, "%d:%d:%d", gps.time.hour(), gps.time.minute(), gps.time.second());
     gpstime = String(timeBuffer);
-  /*
-      Serial.print(F("TIME       Fix Age="));
-      Serial.print(gps.time.age());
-      Serial.print(F("ms Raw="));
-      Serial.print(gps.time.value());
-      Serial.print(F(" Hour="));
-      Serial.print(gps.time.hour());
-      Serial.print(F(" Minute="));
-      Serial.print(gps.time.minute());
-      Serial.print(F(" Second="));
-      Serial.print(gps.time.second());
-      Serial.print(F(" Hundredths="));
-      Serial.println(gps.time.centisecond());
-    */
   }
  return "<gps" 
             + String(satellites)
