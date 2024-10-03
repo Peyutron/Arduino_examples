@@ -1,6 +1,6 @@
 ## Ejemplo para usar el módulo GPS-6MV2 con un microcontrolador ESP8266.
 
- # Datos:
+ ## Datos:
 * Número de satélites disponibles
 * Hdop
 * Latitud
