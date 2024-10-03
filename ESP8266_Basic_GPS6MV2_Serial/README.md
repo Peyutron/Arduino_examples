@@ -10,7 +10,7 @@
 * Hora
 * Altitud
 * Course
-* Velocidad (Km/h
+* Velocidad (Km/h)
 
 Más información sobre la instalación y caracteristicas del módulo en:
 
