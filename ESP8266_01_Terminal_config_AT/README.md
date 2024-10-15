@@ -1,6 +1,6 @@
 ## Pinout ESP8266-01
 
-<img src="https://github.com/Peyutron/Arduino_examples/blob/main/ESP8266_01_Terminal_config_AT/images/Pinout_ESP8266_01.png" height="340" />
+<img src="https://github.com/Peyutron/Arduino_examples/blob/main/ESP8266_01_Terminal_config_AT/images/Pinout_ESP8266_01.png" height="280" />
 
 ## Conexión entre Arduino UNO y ESP8266-01
 
