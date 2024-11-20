@@ -4,7 +4,7 @@
  *
  * Librería LittleFS.
  * 
- * Uso y gestión de la memoría Flash:
+ * Uso y gestión de la memoria Flash:
  * - Creación de archivos
  * - Lectura
  * - Modificación
