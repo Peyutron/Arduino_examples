@@ -47,8 +47,6 @@ void setup() {
 void Create_file(const char *path, String data)
 {
   Serial.println(path);
-  char *testing = ConvertStringToCharArray(data);
-  Serial.println(testing);
   File file = LittleFS.open(path, "w");
   if (!file){
     Serial.println("Error open file");
@@ -66,7 +64,6 @@ void Create_file(const char *path, String data)
 void Add_data_file(const char *path, String data)
 {
   Serial.println(path);
-  char *testing = ConvertStringToCharArray(data);
   File file = LittleFS.open(path, "a");
   if (!file){
     Serial.println("Error open file");
